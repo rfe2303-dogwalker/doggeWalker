@@ -7,13 +7,6 @@ const app = express();
 app.use(express.static(path.join(__dirname, '../client/dist')));
 app.use(express.json());
 
-const dogs = [
-  { dogName: 'figo' },
-  { dogName: 'pippa' },
-  { dogName: 'henry' },
-  { dogName: 'lotti' }
-];
-
 app.get('/getDogs', (req, res) => {
   // getAll
   //   .then((dogs) => {
