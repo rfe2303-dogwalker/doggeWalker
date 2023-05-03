@@ -4,10 +4,10 @@ import DogList from './components/DogList.jsx';
 import AddDog from './components/AddDog.jsx';
 
 const dogArray = [
-  { dogName: 'figo' },
-  { dogName: 'pippa' },
-  { dogName: 'henry' },
-  { dogName: 'lotti' }
+  { dogName: 'Figo' },
+  { dogName: 'Fippa' },
+  { dogName: 'Henry' },
+  { dogName: 'Lotti' }
 ];
 const App = () => {
   // add component for adding a dog to the list
