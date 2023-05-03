@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Dog Walker</h1>
+      <h1>Dogge Walker</h1>
       <AddDog />
       <DogList dogs={dogs} />
     </div>
